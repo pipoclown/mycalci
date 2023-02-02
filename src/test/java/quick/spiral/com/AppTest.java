@@ -11,6 +11,13 @@ public class AppTest
     public void calsAdd()
     {
     	Calculator c = new Calculator();
-        assertEquals(3, c.add(1,1) );
+        assertEquals(2, c.add(1,1) );
+    }
+	
+	@Test
+    public void calcSubtract()
+    {
+    	Calculator c = new Calculator();
+        assertEquals(0, c.subtract(1,1) );
     }
 }
